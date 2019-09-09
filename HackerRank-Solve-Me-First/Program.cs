@@ -16,6 +16,7 @@ namespace HackerRank_Solve_Me_First
             int val2 = Convert.ToInt32(Console.ReadLine());
             //Input the value of the first value and second value
             int sum = SolveMeFirst(val1, val2);
+            //Returns the sum of the two values
             Console.WriteLine(sum);
             //To prevent the console from automatically closing upon completion of program
             Console.Read();
